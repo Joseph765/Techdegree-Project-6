@@ -1,13 +1,12 @@
 const express = require('express');
 const app = express();
-const data = require('data.json');
-// app.set('view engine', 'pug');
-// app.use(express.static('public'));
+const data = require('./data.json');
+app.set('view engine', 'pug');
+app.use(express.static('public'));
 
-// app.get('/', (req, res) => {
-//     const data = data.projects;
-//     app.render('home', {data})
-// });
+app.get('/', (req, res) => {
+    app.render('home', {data});
+});
 
 // app.get('/about', (req, res) => {
 //     app.render('about');
@@ -18,4 +17,4 @@ const data = require('data.json');
 //     app.render(`/`, {data});
 // });
 
-app.listen(3000, console.log());
+app.listen(3000, console.log('This server is running on port 3000!'));
