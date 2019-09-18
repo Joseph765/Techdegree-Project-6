@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://joseph765.github.io/Techdegree-project-1/.",
             "github_link": "https://github.com/Joseph765/Techdegree-project-1", 
-            "image_urls": ["../images/screenshot-1.png", "../images/screenshot-2.png"]
+            "image_urls": ["../static/images/screenshot-0.png", "../static/images/screenshot-5.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://joseph765.github.io/Techdegree-Project-2/",
             "github_link": "https://github.com/Joseph765/Techdegree-Project-2", 
-            "image_urls": ["../images/screenshot-3.png", "../images/screenshot-4.jpg"]
+            "image_urls": ["../static/images/screenshot-1.png", "../static/images/screenshot-6.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "https://joseph765.github.io/Techdegree-Project-3/",
             "github_link": "https://github.com/Joseph765/Techdegree-Project-3",
-            "image_urls": ["../images/screenshot-5.png", "../images/screenshot-6.png"]
+            "image_urls": ["../static/images/screenshot-2.png", "../static/images/screenshot-7.png"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "https://joseph765.github.io/Techdegree-Project-4/.",
             "github_link": "https://github.com/Joseph765/Techdegree-Project-4", 
-            "image_urls": ["../images/screenshot-7.png", "../images/screenshot-8.png"]
+            "image_urls": ["../static/images/screenshot-3.png", "../static/images/screenshot-8.png"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "AJAX"],
             "live_link": "https://joseph765.github.io/Techdegree-Project-5/.",
             "github_link": "https://github.com/Joseph765/Techdegree-Project-5", 
-            "image_urls": ["../images/screenshot-9.png", "../images/screenshot-10.png"]
+            "image_urls": ["../static/images/screenshot-4.png", "../static/images/screenshot-9.png"]
         }
-    ]
+    ] 
 }

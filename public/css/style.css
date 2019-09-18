@@ -1,6 +1,12 @@
 
+body {
+  background-color: #191b1c;
+  color: white;
+}
+
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  color: white;
 }
 
   h5{
@@ -27,7 +33,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #acb9bf;
 }
 
 .button{
@@ -39,7 +45,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: white;
 }
 
 a:hover{
@@ -58,14 +64,14 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #062F4F; /* #121213 */
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: white;
   }
 
   .portfolio-me a{
@@ -79,7 +85,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: white;
   }
 
 .portfolio-breadcrumb{
@@ -142,9 +148,18 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: white;
 }
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.hidden {
+  opacity: 0 !important;
+}
+
+@keyframes fadeInMoveUp {
+  from{opacity: 0; transform: translateY(50px);}
+  to{opacity: 1; transform: translateY(0); }
 }
